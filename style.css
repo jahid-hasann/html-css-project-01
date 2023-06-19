@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family:Montserrat
+sans-serif;
+}
+p{
+	font-family:"Merriweather", serif;
+}
+
+#heroSection{
+	background-color:#e4f9f5;
+}
+.container{
+	width:1200px;
+	margin:auto;
+}
+.h-top{
+	text-align:right;
+	padding-top:30px;
+}
+.h-middle{
+	text-align:center;
+}
+.h-middle h1{
+	font-family: "Sacramento", cursive;
+	font-size:80px;
+	color:#66bfbf;
+	font-weight:700;
+}
+.h-middle h2{
+	font-size:50px;
+	margin-top:-20px;
+	color:#66BFBF;
+	font-weight:400;
+}
+.h-middle img{
+	text-align:left;
+	display:block;
+}
+.h-bottom{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:-40px;
+}
+#about{
+	text-align:center;
+	padding:100px 0px;
+}
+#about img{
+	max-width:180px;
+	height:180px;
+	border-radius:50%;
+	border:1.5px solid #000;
+}
+#about h2{
+	color:#66BFBF;
+	font-size:40px;
+	font-weight:400;
+}
+#about p{
+	width:32%;
+	margin:auto;
+	color:#40514E;
+	font-size:18px;
+	
+}
+#skill h2{
+	text-align:center;
+	color:#66BFBF;
+	font-size:40px;
+	font-weight:400;
+	padding-bottom:40px;
+}
+.box{
+	width:60%;
+	margin:auto;
+	display:flex;
+}
+.right-box{
+	margin-left:10px;
+}
+.right-box h3{
+	color:#11999E;
+	font-size:22px;
+	font-weight:700;
+	margin-top:0px;
+}
+.right-box p{
+	font-size:20px;
+	line-height:32px;
+	color:#40514E;
+}
+.bottomLeft{
+	width:100%;
+}
+.bottomLeft img{
+	width:55%;
+}
+.boxBottom{
+	padding:50px 0px;
+}
+
+#get-in-tought{
+	text-align:center;
+	padding:50px 0px;
+}
+#get-in-tought h2{
+	color:#66BFBF;
+	font-family:"Montserrat", sans-serif;	
+	font-size:40px;
+	font-weight:400;
+}
+#get-in-tought h3{
+	color:#11999E;
+	font-size:20px;
+	font-weight:900;
+}
+#get-in-tought p{
+	font-size:19px;
+	line-height:32px;
+	color:#40514E;
+	width:50%;
+	margin:auto;
+	padding:30px 0px 40px;
+}
+#get-in-tought a{
+	text-decoration:none;
+	padding:10px 20px;
+	 border-radius:8px;
+	background:#11999e;
+	color:#EAF6F6;
+	font-size:20px;
+	
+}
+#get-in-tought a:hover{
+	background:#11cdd4;
+
+}
+
+#footer{
+	background:#66bfbf;
+	padding:50px 0px 20px;
+	margin:0px;
+	text-align:center;
+}
+
+.menu ul{
+	display:flex;
+	justify-content:center;
+}
+.menu ul li{
+	list-style:none;
+}
+.menu ul li a{
+	text-decoration:none;
+	padding:0px 20px;
+	color:#11999e;
+	font-size:20px;
+	transition:.3s;
+}
+.menu ul li a:hover{
+	color:#fff;
+}
+#footer p{
+	color:#eaf6f6;
+	font-size:18x;
+	padding:10px 0px 0px 0px;
+}
+
+
+@media screen and (max-width:1199px){
+	.container {
+    width: 100% !important;
+}
+}
